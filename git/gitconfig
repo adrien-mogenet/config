@@ -1,0 +1,11 @@
+[user]
+	name = Adrien Mogenet
+	email = adrien.mogenet@gmail.com
+	editor = emacs
+[color]
+	ui = always
+[alias]
+	st = status
+	ci = commit
+[branch]
+	autosetuprebase = always
