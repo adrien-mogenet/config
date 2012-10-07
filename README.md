@@ -1,0 +1,4 @@
+config
+======
+
+Personal configuration
