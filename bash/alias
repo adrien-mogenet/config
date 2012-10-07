@@ -1,0 +1,9 @@
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias ..='cd ..'
+
+if [ "`uname`" = "Darwin" ]; then
+  alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
+fi
