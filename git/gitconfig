@@ -3,7 +3,7 @@
   email = adrien.mogenet@gmail.com
 
 [core]
-  gitproxy = gitproxy
+  #gitproxy = gitproxy
   pager = less -x4
 
 [color]

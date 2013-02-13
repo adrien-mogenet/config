@@ -92,13 +92,6 @@
 (set-font-size)
 
 ;; SET MODES FROM FILE EXTENSIONS
-(add-to-list 'auto-mode-alist '("\\.l$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.y$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.ll$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.yy$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.xcc$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.xhh$" . c++-mode))
-(add-to-list 'auto-mode-alist '("\\.pro$" . sh-mode)) ; Qt .pro files
 (add-to-list 'auto-mode-alist '("configure$" . sh-mode))
 (add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Drakefile$" . ruby-mode))
@@ -106,7 +99,7 @@
 
 
 ;; ----------------------------------------------------------------------------
-;; NODULES CONFIGURATIONS
+;; MODULES CONFIGURATIONS
 ;; ----------------------------------------------------------------------------
 
 ;; IDO-MODE -  Open files/switch buffers
@@ -208,7 +201,7 @@
 ;; C / C++ MODE
 (require 'cc-mode)
 (add-to-list 'c-style-alist
-             '("epita"
+             '("checkstyle"
                (c-basic-offset . 2)
                (c-comment-only-line-offset . 0)
                (c-hanging-braces-alist     . ((substatement-open before after)))
@@ -219,7 +212,7 @@
                                    (access-label         . -)
                                    (inclass              . ++)
                                    (inline-open          . 0)))))
-(setq c-default-style "epita")
+(setq c-default-style "checkstyle")
 
 (defun c-insert-braces (&optional r)
   (interactive "P")
@@ -295,21 +288,26 @@
  'isearch-yank-char)                                   ; yank char from buffer
 
 ;; BINDINGS :: misc
-(if (display-graphic-p)
-    (global-set-key [(control z)] 'undo)                ; undo only in graphic mode
-)
+(global-set-key [(control z)] 'undo)                    ; undo
 (global-set-key [C-home] 'beginning-of-buffer)          ; go to the beginning of buffer
 (global-set-key [C-end] 'end-of-buffer)                 ; go to the end of buffer
 (global-set-key [(meta g)] 'goto-line)                  ; goto line #
-(global-set-key [M-left] 'windmove-left)                ; move to left windnow
+(global-set-key [M-left] 'windmove-left)                ; move to left window
 (global-set-key [M-right] 'windmove-right)              ; move to right window
 (global-set-key [M-up] 'windmove-up)                    ; move to upper window
-(global-set-key [M-down] 'windmove-down)
+(global-set-key [M-down] 'windmove-down)                ; move to down window
 (global-set-key [(control tab)] 'other-window)          ; Ctrl-Tab = Next buffer
 (global-set-key [C-S-iso-lefttab]
                 '(lambda () (interactive)
                    (other-window -1)))                  ; Ctrl-Shift-Tab = Previous buffer
 (global-set-key [f12] 'replace-string)
+
+;; BINDINGS :: for use within terminal
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>") 'windmove-up)
+(global-set-key (kbd "C-c <left>") 'windmove-left)
+(global-set-key (kbd "C-c <down>") 'windmove-down)
+(global-set-key (kbd "M-DEL") 'backward-kill-word)
 
 ;; BINDINGS :: compile
 (global-set-key [f8] 'previous-error)
@@ -349,3 +347,5 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
 )
+
+(add-to-list 'load-path "~/.emacs.d/")
