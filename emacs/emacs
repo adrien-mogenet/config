@@ -27,9 +27,9 @@
 (when (display-graphic-p)               ; if graphic
   (scroll-bar-mode nil)                 ; no scroll bar
   (mouse-wheel-mode t)                  ; enable mouse wheel
+  (tool-bar-mode nil)                   ; no tool bar
   )
 (menu-bar-mode nil)                     ; no menu bar
-(tool-bar-mode nil)                     ; no tool bar
 (setq scroll-step 1)                    ; smooth scrolling
 (setq normal-erase-is-backspace-mode t) ; make delete work as it should
 (fset 'yes-or-no-p 'y-or-n-p)           ; 'y or n' instead of 'yes or no'
@@ -41,9 +41,9 @@
 (auto-image-file-mode)                  ; to see picture in emacs
 (show-paren-mode t)                     ; Paren match highlighting
 (add-hook 'write-file-hooks 'delete-trailing-whitespace) ;; Delete trailing whitespaces on save
-(setq compilation-window-height 10)     ;; pour que la fenetre de compilation ne soit pas trop grande
-(setq compilation-scroll-output t)      ;; va tjs en bas de la fenetre de compile
-(setq-default gdb-many-windows t)       ;; Better gdb
+(setq compilation-window-height 10)     ; pour que la fenetre de compilation ne soit pas trop grande
+(setq compilation-scroll-output t)      ; va tjs en bas de la fenetre de compile
+(setq-default gdb-many-windows t)       ; Better gdb
 
 ;; ENCODING
 (setq locale-coding-system 'utf-8)
@@ -129,6 +129,10 @@
 (load "~/.emacs.d/pabbrev.el")
 (require 'pabbrev)
 (global-pabbrev-mode)
+
+;; PUPPET
+(load-file "~/.emacs.d/puppet/puppet-mode.el")
+(load-file "~/.emacs.d/puppet/puppet-mode-init.el")
 
 
 ;; ----------------------------------------------------------------------------
