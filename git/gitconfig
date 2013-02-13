@@ -22,6 +22,9 @@
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
+  amend = commit --amend -C HEAD
+  undo = reset --soft HEAD^
+  graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 
 [branch "master"]
   remote = origin
