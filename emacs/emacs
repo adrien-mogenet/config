@@ -44,6 +44,7 @@
 (setq compilation-window-height 10)     ; pour que la fenetre de compilation ne soit pas trop grande
 (setq compilation-scroll-output t)      ; va tjs en bas de la fenetre de compile
 (setq-default gdb-many-windows t)       ; Better gdb
+(setq require-final-newline t)          ; make edited files end with a carriage return
 
 ;; ENCODING
 (setq locale-coding-system 'utf-8)
