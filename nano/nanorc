@@ -1,0 +1,4 @@
+set autoindent
+set brackets ""')>]}"
+set matchbrackets "(]}"
+include ~/.nano.d/puppet/puppet.nanorc

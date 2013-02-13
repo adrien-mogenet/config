@@ -1,3 +1,6 @@
 [submodule "emacs/emacs.d/puppet"]
 	path = emacs/emacs.d/puppet
 	url = git://github.com/puppetlabs/puppet-syntax-emacs.git
+[submodule "nano/nano.d/puppet"]
+	path = nano/nano.d/puppet
+	url = git://github.com/tmatthaeus/puppet-nano.git
