@@ -1,4 +1,13 @@
 set autoindent
 set brackets ""')>]}"
-set matchbrackets "(]}"
+set const
+set matchbrackets "(<[{)>]}"
+set mouse
+set regexp
+set tabsize 2
+set tabstospaces
 include ~/.nano.d/puppet/puppet.nanorc
+
+
+syntax "java" "\.java$"
+color green "\<(boolean|byte|char|double|float|int|long|new|short|this|transient|void)\>"
