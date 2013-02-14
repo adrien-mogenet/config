@@ -152,6 +152,9 @@
 (load-file "~/.emacs.d/puppet/puppet-mode-init.el")
 (load-file "~/.emacs.d/puppet-ext.el")
 
+;; OTHER MODES
+; <fixme>
+
 
 ;; ----------------------------------------------------------------------------
 ;; PLATFORM SPECIFIC OPTIONS

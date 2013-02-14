@@ -4,3 +4,6 @@
 [submodule "nano/nano.d/puppet"]
 	path = nano/nano.d/puppet
 	url = git://github.com/tmatthaeus/puppet-nano.git
+[submodule "emacs/emacs.d/markdown"]
+	path = emacs/emacs.d/markdown
+	url = git://jblevins.org/git/markdown-mode.git
