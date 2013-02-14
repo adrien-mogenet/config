@@ -6,6 +6,8 @@ if ["`uname`" = "Linux" ]; then
   alias ls='ls --color=auto -h'
 fi
 
+alias diff='diff -u'
+alias emacs='emacs -nw'
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -a'
