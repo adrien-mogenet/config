@@ -5,10 +5,14 @@ if [ -f $HOME/.alias ]; then
 fi
 
 # Bash configuration
+export EDITOR="emacs"
 export HISTSIZE=1000
 export HISTFILESIZE=${HISTSIZE}
 export HISTIGNORE="ls:cd:[bf]g:exit"
 export HISTCONTROL="ignoreboth"
+export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+export CLICOLOR=true
+export LSCOLORS=ExGxFxdxCxDxDxBxBxExEx
 
 # Options
 shopt -s cdspell        # correct misspelled folders when cd
@@ -27,6 +31,9 @@ grey="\[\e[30;1m\]"
 
 # Custom prompt
 PS1="[\t] ${green}\u@\h${lightblue} \W \$ ${txtreset}"
+
+# ssh host tab completion
+complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" ssh
 
 function mkcd() {
   FOLDER=$1

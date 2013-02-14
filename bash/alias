@@ -1,11 +1,13 @@
+
+# 1. Platform specific aliases
 if [ "`uname`" = "Darwin" ]; then
   alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
 fi
-
-if ["`uname`" = "Linux" ]; then
+if [ "`uname`" = "Linux" ]; then
   alias ls='ls --color=auto -h'
 fi
 
+# 2. Global aliases
 alias diff='diff -u'
 alias emacs='emacs -nw'
 alias l='ls'
