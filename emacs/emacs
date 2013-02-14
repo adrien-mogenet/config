@@ -140,6 +140,7 @@
 ;; PUPPET
 (load-file "~/.emacs.d/puppet/puppet-mode.el")
 (load-file "~/.emacs.d/puppet/puppet-mode-init.el")
+(load-file "~/.emacs.d/puppet-ext.el")
 
 
 ;; ----------------------------------------------------------------------------
