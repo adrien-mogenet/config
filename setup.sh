@@ -64,4 +64,5 @@ ensure_is_linked $ABS_PATH/bash/alias $HOME/.alias
 ensure_is_linked $ABS_PATH/emacs/emacs $HOME/.emacs
 ensure_is_linked $ABS_PATH/emacs/emacs.d $HOME/.emacs.d
 ensure_is_linked $ABS_PATH/nano/nano.d $HOME/.nano.d
+ensure_is_linked $ABS_PATH/vim/vimrc $HOME/.vimrc
 build_nano_file $ABS_PATH/nano/nanorc $HOME/.nanorc
