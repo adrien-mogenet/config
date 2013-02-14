@@ -16,6 +16,12 @@
 (setq text-mode-hook 'turn-on-auto-fill)
 (setq fill-column 80)
 
+;; TAB POLICY
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq sh-basic-offset 2
+      sh-indentation 2)
+
 ;; OPTIONS
 (setq inhibit-startup-message t)        ; don't show the GNU splash screen
 (setq frame-title-format "%b")          ; titlebar shows buffer's name
@@ -326,6 +332,16 @@
 
 ;; BINDINGS :: ido
 (global-set-key [(control b)] 'ido-switch-buffer)
+
+;; BINDINGS :: indent
+(defun iwb ()
+  "indent whole buffer"
+  (interactive)
+  (delete-trailing-whitespace)
+  (indent-region (point-min) (point-max) nil)
+  (untabify (point-min) (point-max)))
+(global-set-key (kbd "M-\\") 'iwb)
+
 
 
 ;; ----------------------------------------------------------------------------
