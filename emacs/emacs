@@ -21,6 +21,7 @@
 (setq-default tab-width 2)
 (setq sh-basic-offset 2
       sh-indentation 2)
+(setq standard-indent 2)
 
 ;; OPTIONS
 (setq inhibit-startup-message t)        ; don't show the GNU splash screen
@@ -51,6 +52,15 @@
 (setq compilation-scroll-output t)      ; va tjs en bas de la fenetre de compile
 (setq-default gdb-many-windows t)       ; Better gdb
 (setq require-final-newline t)          ; make edited files end with a carriage return
+
+;; AUTOSAVE
+;; Put autosave files (ie #foo#) and backup files (ie foo~) in ~/.emacs.d/.
+(custom-set-variables
+  '(auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
+  '(backup-directory-alist '((".*" . "~/.emacs.d/backups/"))))
+
+;; create the autosave dir if necessary, since emacs won't.
+(make-directory "~/.emacs.d/autosaves/" t)
 
 ;; ENCODING
 (setq locale-coding-system 'utf-8)
@@ -371,3 +381,4 @@
 )
 
 (add-to-list 'load-path "~/.emacs.d/")
+
