@@ -1,9 +1,13 @@
+if [ "`uname`" = "Darwin" ]; then
+  alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
+fi
+
+if ["`uname`" = "Linux" ]; then
+  alias ls='ls --color=auto -h'
+fi
+
 alias l='ls'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias ..='cd ..'
-
-if [ "`uname`" = "Darwin" ]; then
-  alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
-fi
