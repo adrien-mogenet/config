@@ -48,6 +48,10 @@ ensure_nano_file_included() {
 build_nano_file() {
   local source=$1
   local target=$2
+  test -d $NANO_SYNTAX_FILES || (
+    echo >&2 "Resource $NANO_SYNTAX_FILES not found";
+    exit 2
+    )
   rm -f $target
   for file in ${NANO_SYNTAX_FILES}/*.nanorc; do
     ensure_nano_file_included $file
