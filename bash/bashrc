@@ -20,7 +20,7 @@ shopt -s checkwinsize   # reajust content width to window size
 shopt -s cmdhist        # save multi-lines commands on one line
 
 # Defines colors
-txtreset='\e[0m'
+txtreset='\[\e[0m'
 blue="\[\e[01;34m\]"
 orange="\[\e[02;33m\]"
 green="\[\e[00;32m\]"
@@ -40,3 +40,8 @@ function mkcd() {
   mkdir -p $1
   cd $1
 }
+
+# Finally, load content within .bash.d
+for file in $HOME/.bash.d/*; do
+  test -f $file && source $file
+done
