@@ -114,6 +114,12 @@
 (require 'mac-key-mode)
 (mac-key-mode 1)
 
+;; Rainbow-mode
+(require 'rainbow-mode)
+(require 'rainbow-delimiters)
+(rainbow-mode t)
+(global-rainbow-delimiters-mode)
+
 
 ;; -------------------------------------------------------------------------
 ;; ADVANCED CUSTOM OPTIONS
