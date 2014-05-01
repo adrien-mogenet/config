@@ -8,6 +8,7 @@
                       starter-kit-bindings
                       starter-kit-eshell
                       clojure-mode
+                      rainbow-mode
                       clojure-test-mode
                       cider))
 
