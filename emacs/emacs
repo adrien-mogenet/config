@@ -120,6 +120,9 @@
 (rainbow-mode t)
 (global-rainbow-delimiters-mode)
 
+;; Company mode
+(add-hook 'after-init-hook 'global-company-mode)
+
 
 ;; -------------------------------------------------------------------------
 ;; ADVANCED CUSTOM OPTIONS

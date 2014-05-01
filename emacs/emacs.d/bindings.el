@@ -86,3 +86,6 @@
   (indent-region (point-min) (point-max) nil)
   (untabify (point-min) (point-max)))
 (global-set-key (kbd "M-\\") 'iwb)
+
+;; BINDINGS :: company
+(global-set-key [(control o)] 'company-complete)
