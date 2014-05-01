@@ -48,16 +48,36 @@ middle"
 (defun win-resize-enlarge-vert ()
   (interactive)
   (cond
-   ((equal "left" (win-resize-left-or-right)) (enlarge-window-horizontally -1))
-   ((equal "right" (win-resize-left-or-right)) (enlarge-window-horizontally 1))
-   ((equal "mid" (win-resize-left-or-right)) (enlarge-window-horizontally -1))))
+   ((equal "left" (win-resize-left-or-right))
+    (enlarge-window-horizontally -1))
+   ((equal "right" (win-resize-left-or-right))
+    (enlarge-window-horizontally 1))
+   ((equal "mid" (win-resize-left-or-right))
+    (enlarge-window-horizontally -1))))
 
 (defun win-resize-minimize-vert ()
   (interactive)
   (cond
-   ((equal "left" (win-resize-left-or-right)) (enlarge-window-horizontally 1))
-   ((equal "right" (win-resize-left-or-right)) (enlarge-window-horizontally -1))
-      ((equal "mid" (win-resize-left-or-right)) (enlarge-window-horizontally 1))))
+   ((equal "left" (win-resize-left-or-right))
+    (enlarge-window-horizontally 1))
+   ((equal "right" (win-resize-left-or-right))
+    (enlarge-window-horizontally -1))
+   ((equal "mid" (win-resize-left-or-right))
+    (enlarge-window-horizontally 1))))
+
+
+;; Functions to move lines up and down
+
+(defun move-line-up ()
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2))
+
+(defun move-line-down ()
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+    (forward-line -1))
 
 
 ;; BINDINGS :: isearch
@@ -79,6 +99,10 @@ middle"
 (global-set-key [C-home] 'beginning-of-buffer) ; go to the beginning of buffer
 (global-set-key [C-end] 'end-of-buffer)        ; go to the end of buffer
 (global-set-key [(meta g)] 'goto-line)         ; goto line #
+(define-key input-decode-map "\e\eOA" [(meta up)])
+(define-key input-decode-map "\e\eOB" [(meta down)])
+(global-set-key [(meta up)] 'move-line-up)
+(global-set-key [(meta down)] 'move-line-down)
 
 ;; BINDINGS :: resizing windows
 (global-set-key (kbd "C-x C-<up>") 'win-resize-enlarge-horiz)
