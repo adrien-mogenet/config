@@ -26,8 +26,11 @@ lightblue="\[\033[1;36m\]"
 bluegreen="\[\e[02;36m\]"
 grey="\[\e[30;1m\]"
 
+# To display current git branch in prompt
+source ~/.git-prompt.sh
+
 # Custom prompt
-PS1="[\t] ${green}\u@\h${lightblue} \W \$ ${txtreset}"
+PS1="[\t] ${green}\u@\h${lightblue} \W \$${txtreset}\$(__git_ps1) "
 
 # ssh host tab completion
 complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;)" ssh
