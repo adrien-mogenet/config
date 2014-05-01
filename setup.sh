@@ -62,10 +62,11 @@ build_nano_file() {
 
 ABS_PATH=$PWD/`dirname $0`
 ensure_is_linked $ABS_PATH/git/gitconfig $HOME/.gitconfig
+ensure_is_linked $ABS_PATH/git/git-prompt.sh $HOME/.git-prompt.sh
 ensure_is_linked $ABS_PATH/bash/bashrc $HOME/.bashrc
 ensure_is_linked $ABS_PATH/bash/bash.d $HOME/.bash.d
 ensure_is_linked $ABS_PATH/bash/alias $HOME/.alias
-ensure_is_linked $ABS_PATH/emacs/emacs $HOME/.emacs
+ensure_is_linked $ABS_PATH/emacs/myemacs $HOME/.myemacs
 ensure_is_linked $ABS_PATH/emacs/emacs.d $HOME/.emacs.d
 ensure_is_linked $ABS_PATH/nano/nano.d $HOME/.nano.d
 ensure_is_linked $ABS_PATH/vim/vimrc $HOME/.vimrc
