@@ -1,3 +1,10 @@
 # word jump on SHIFT left/right arrows
 "\e[1;2D": backward-word
 "\e[1;2C": forward-word
+
+# Configure autocomplete
+set completion-display-width 1
+set menu-complete-display-prefix On
+set completion-ignore-case On
+Control-k: menu-complete
+Control-j: menu-complete-backward
