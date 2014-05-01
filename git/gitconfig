@@ -6,6 +6,12 @@
   #gitproxy = gitproxy
   pager = less -x4
 
+[color "diff"]
+  plain = white
+  meta = bold
+  old = red
+  new = green
+
 [color]
   diff = auto
   status = auto
