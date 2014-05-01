@@ -33,4 +33,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(isearch ((t (:background "Yellow" :foreground "brown4"))))
+ '(isearch-lazy-highlight-face ((t (:background "Brown"))) t)
  '(linum ((t (:inherit (shadow default) :background "#212121" :foreground "#444")))))
