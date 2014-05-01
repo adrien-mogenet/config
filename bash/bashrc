@@ -1,8 +1,4 @@
 #!/bin/sh
-# Load custom aliases if any
-if [ -f $HOME/.alias ]; then
-  . $HOME/.alias
-fi
 
 # Bash configuration
 export EDITOR="emacs"
@@ -18,6 +14,7 @@ export LSCOLORS=ExGxFxdxCxDxDxBxBxExEx
 shopt -s cdspell        # correct misspelled folders when cd
 shopt -s checkwinsize   # reajust content width to window size
 shopt -s cmdhist        # save multi-lines commands on one line
+set show-all-if-ambiguous on  # single tab behavior
 
 # Defines colors
 txtreset='\[\e[0m'
@@ -45,3 +42,8 @@ function mkcd() {
 for file in $HOME/.bash.d/*; do
   test -f $file && source $file
 done
+
+# Load custom aliases if any
+if [ -f $HOME/.alias ]; then
+  . $HOME/.alias
+fi
