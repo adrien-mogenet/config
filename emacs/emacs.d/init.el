@@ -35,6 +35,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(font-lock-comment-face ((t (:foreground "MediumAquamarine"))))
+ '(font-lock-doc-face ((t (:inherit font-lock-string-face :foreground "keyboardFocusIndicatorColor"))))
+ '(font-lock-doc-string-face ((t (:foreground "green2"))))
+ '(font-lock-function-name-face ((t (:bold t :foreground "Orchid"))))
+ '(font-lock-string-face ((t (:foreground "gridColor"))))
  '(isearch ((t (:background "Yellow" :foreground "brown4"))))
  '(lazy-highlight ((t (:background "Brown"))))
  '(linum ((t (:inherit (shadow default) :background "#212121" :foreground "#444")))))
