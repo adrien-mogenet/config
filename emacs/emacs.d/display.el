@@ -1,7 +1,7 @@
 (when (display-graphic-p)               ; if graphic
-  (scroll-bar-mode nil)                 ; no scroll bar
+  (scroll-bar-mode -1)                  ; no scroll bar
   (mouse-wheel-mode t)                  ; enable mouse wheel
-  (tool-bar-mode nil)                   ; no tool bar
+  (tool-bar-mode -1)                    ; no tool bar
   )
 
 (setq inhibit-startup-message t)        ; don't show the GNU splash screen
@@ -12,8 +12,8 @@
 (setq line-number-mode 't)              ; line number
 (setq column-number-mode 't)            ; column number
 (menu-bar-mode nil)                     ; no menu bar
+(scroll-bar-mode -1)
 (setq scroll-step 1)                    ; smooth scrolling
-
 
 ;; DISPLAY COLORS
 
