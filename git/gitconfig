@@ -41,4 +41,4 @@
   autosetuprebase = always
 
 [push]
-  deault = matching
+  default = matching
