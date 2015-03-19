@@ -25,7 +25,7 @@ aws-get-ip() {
 function aws-ssh() {
   if [ $# -lt 2 ]; then
     echo "Usage:   aws-ssh <nat-hostname> <target-hostname | target-IP> [any SSH parameters]"
-    echo "Example: aws-ssh nat trk1 'ls /tmp'
+    echo "Example: aws-ssh nat trk1 'ls /tmp'"
     return 1
   fi
   local nat=$1
