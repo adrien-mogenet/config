@@ -1,0 +1,39 @@
+
+;; ----- smex-history -----
+(
+ comment-region
+ octave-mode
+ replace-string
+ sql-mode
+ java-mode
+ uncomment-region
+ yaml-mode
+)
+
+;; ----- smex-data -----
+(
+ (hl-line-mode . 173)
+ (replace-regexp . 1)
+ (javascript-mode . 4)
+ (java-mode . 6)
+ (eshell-mode . 2)
+ (sh-mode . 5)
+ (replace-string . 74)
+ (comment-region . 8)
+ (uncomment-region . 2)
+ (python-mode . 4)
+ (text-mode . 1)
+ (indent-region . 4)
+ (xml-mode . 1)
+ (package-install . 5)
+ (write-file . 3)
+ (TeX-mode . 1)
+ (compile . 3)
+ (customize-themes . 2)
+ (load-theme . 1)
+ (justify-current-line . 1)
+ (align-entire . 1)
+ (yaml-mode . 1)
+ (sql-mode . 2)
+ (octave-mode . 1)
+)

@@ -1,5 +1,5 @@
 (when (display-graphic-p)               ; if graphic
-  (scroll-bar-mode -1)                  ; no scroll bar
+;  (scroll-bar-mode -1)                  ; no scroll bar
   (mouse-wheel-mode t)                  ; enable mouse wheel
   (tool-bar-mode -1)                    ; no tool bar
   )
@@ -12,15 +12,15 @@
 (setq line-number-mode 't)              ; line number
 (setq column-number-mode 't)            ; column number
 (menu-bar-mode nil)                     ; no menu bar
-(scroll-bar-mode -1)
+;(scroll-bar-mode -1)
 (setq scroll-step 1)                    ; smooth scrolling
 
 ;; DISPLAY COLORS
 
-(set-face-attribute 'hl-line nil
-                    :background "#1d2743"
-                    :foreground nil
-                    :inherit t)
+;; (set-face-attribute 'hl-line nil
+;;                     :background "#1d2743"
+;;                     :foreground nil
+;;                     :inherit t)
 
 ;; Custom color for region selection
 (set-face-attribute 'region nil
@@ -39,6 +39,7 @@
    ))
 (set-face-foreground 'font-lock-string-face "white")
 (set-face-foreground 'font-lock-comment-face "orange")
+(set-face-background 'h1-line-face "gray13")
 
 ;; DISPLAY FONT
 (setq default-font-size 135)

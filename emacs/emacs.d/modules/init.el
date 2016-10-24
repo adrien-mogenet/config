@@ -42,4 +42,5 @@
  '(font-lock-string-face ((t (:foreground "gridColor"))))
  '(isearch ((t (:background "Yellow" :foreground "brown4"))))
  '(lazy-highlight ((t (:background "Brown"))))
- '(linum ((t (:inherit (shadow default) :background "#212121" :foreground "#444")))))
+ '(linum ((t (:inherit (shadow default) :background "#212121" :foreground "#444"))))
+ )
