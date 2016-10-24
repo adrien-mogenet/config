@@ -24,7 +24,11 @@
   co = checkout
   df = diff
   dc = diff --cached
+  ds = diff --staged
+  diffs = diff --staged
   lg = log -p
+  cp = cherry-pick
+  pullr = pull -r
   lol = log --graph --decorate --pretty=oneline --abbrev-commit
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
@@ -42,3 +46,8 @@
 
 [push]
   default = matching
+
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
