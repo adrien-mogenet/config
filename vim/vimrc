@@ -1,7 +1,7 @@
 " General purposes options
 set nocompatible
 set bs=2
-set columns=80
+set columns=120
 set background=dark
 set wrapmargin=8
 syntax on
@@ -63,3 +63,8 @@ set laststatus=2
 
 " Format the status line
 set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ Line:\ %l
+
+" Autoload pig syntax
+augroup filetypedetect
+    au BufNewFile,BufRead *.pig set filetype=pig syntax=pig
+augroup END
