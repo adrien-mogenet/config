@@ -50,3 +50,17 @@ done
 if [ -f $HOME/.alias ]; then
   . $HOME/.alias
 fi
+
+# Handle passphrase for ssh, to avoid typing it everytime.
+# Note that we don't use -delete as this won't work properly on
+# FreeBSD and MacOSX, and we need to redirect stderr to avoid
+# the 'No such file...' error message.
+SSH_WITNESS_FILE="/tmp/is_ssh_passphrase_ok"
+SSH_TTL=86400
+SSH_TTL_MINUTES=$((SSH_TTL / 60))
+find "$SSH_WITNESS_FILE" -cmin "+${SSH_TTL_MINUTES}" -type f \
+     -exec rm -rf {} \; >/dev/null 2>/dev/null
+if [ ! -f $SSH_WITNESS_FILE ] && [ "$TERM" != "xterm-16color" ]; then
+  ssh-add -t $SSH_TTL ~/.ssh/am-201601
+  touch $SSH_WITNESS_FILE
+fi

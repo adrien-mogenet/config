@@ -1,11 +1,6 @@
+#!/bin/bash
 
 # 1. Platform specific aliases
-if [ "`uname`" = "Darwin" ]; then
-  alias emacs='/Applications/Emacs24.app/Contents/MacOS/Emacs --load ~/.myemacs'
-  alias octave='/Applications/Octave.app/Contents/Resources/bin/octave-cli -p /Applications/Octave.app/Contents/Resources/'
-  alias octave-gui='/Applications/Octave.app/Contents/Resources/bin/octave'
-  alias php=/opt/local/bin/php
-fi
 if [ "`uname`" = "Linux" ]; then
   alias ls='ls --color=auto -h'
 fi
