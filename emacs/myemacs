@@ -87,7 +87,11 @@
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
  '(auto-save-file-name-transforms (quote ((".*" "~/.emacs.d/autosaves/\\1" t))))
  '(backup-directory-alist (quote ((".*" . "~/.emacs.d/backups/"))))
- '(custom-enabled-themes (quote (manoj-dark))))
+ '(custom-enabled-themes (quote (manoj-dark)))
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+          ("melpa-stable" . "http://stable.melpa.org/packages/")))))
 (make-directory "~/.emacs.d/autosaves/" t) ;; create the autosave dir
 
 
@@ -146,3 +150,7 @@
 
 ;; Ignore syntax highlight in verbatim mode for LaTeX
 (setq LaTeX-verbatim-environments-local '("verbatim" "lstlisting" "cverbatim"))
+
+;; Solve magit issue
+;; http://emacs.stackexchange.com/questions/7544/locally-added-file-under-the-git-version-control-system
+(setq vc-handled-backends ())

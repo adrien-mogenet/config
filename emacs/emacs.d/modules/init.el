@@ -29,7 +29,11 @@
  '(mac-input-method-mode nil)
  '(menu-bar-mode nil)
  '(ns-antialias-text nil)
- '(transient-mark-mode t))
+ '(transient-mark-mode t)
+ '(package-archives
+   (quote
+    (("gnu" . "http://elpa.gnu.org/packages/")
+          ("melpa-stable" . "http://stable.melpa.org/packages/")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

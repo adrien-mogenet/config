@@ -2,6 +2,45 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/" . "tasks/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.inmemory_inventory/" . "tasks/")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/files/" . "home/")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/" . "files/")
+ ("/Users/adrien/Development/csq/puppet-modules/hbase/" . "templates/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/" . "meta/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/" . "tasks/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/" . "defaults/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.elasticsearch5/" . "vars/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/elastic.elasticsearch/" . "defaults/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.users/" . "defaults/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.common/" . "meta/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/" . "csq.users/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.scala-app/" . "defaults/")
+ ("/Volumes/Extension/Development/csq/" . "ansible-dev/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/staging/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-sg/" . "tasks/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-ec2/" . "defaults/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.security-upgrades/" . "tasks/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/production/" . "eu-west-1/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/" . "production/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/docs/" . "playbooks_docs/")
+ ("/Volumes/Extension/Development/csq/ansible-dev/" . "scripts/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/" . "meta/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.uxasqsprocessing/" . "defaults/")
+ ("/Users/adrien/Development/csq/cerebro/src/" . "python/")
+ ("/Users/adrien/Development/csq/cerebro/" . "src/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.elasticsearch5/" . "tasks/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.uxanalytics/" . "tasks/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.burrow/" . "handlers/")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/production/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-php-symfony-app/" . "templates/")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/future/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/staging/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/next1/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/dev/" . "eu-west-1/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.hub/" . "defaults/")
+ ("/Users/adrien/Downloads/eeglab/eeglab13_6_5b/functions/" . "timefreqfunc/")
+ ("/Users/adrien/Downloads/eeglab/eeglab13_6_5b/" . "functions/")
  ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/" . "tasks/")
  ("/Users/adrien/Development/csq/puppet-modules/athallian/" . "manifests/")
  ("/Users/adrien/Development/csq/puppet-modules/hpgpagecarto/" . "manifests/")
@@ -15,9 +54,9 @@
  ("/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/" . "meta/")
  ("/Users/adrien/Development/csq/ansible-dev/roles/csq.supervisor/" . "tasks/")
  ("/Users/adrien/Development/csq/ansible-dev/group_vars/" . "all/")
- ("/Users/adrien/Development/csq/ansible-dev/" . "environments/")
+ ("/Users/adrien/Development/csq/ansible-dev/" . "roles/")
  ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/" . "meta/")
- ("/Users/adrien/Development/csq/ansible-dev/roles/" . "csq.aws-elb/")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/" . "csq.users/")
  ("/Users/adrien/Development/csq/ansible-dev/environments/" . "staging/")
  ("/Users/adrien/Development/ansigenome/" . "ansigenome/")
  ("/Users/adrien/Development/csq/geonosis/" . "aws/")
@@ -39,7 +78,7 @@
  ("/Users/adrien/" . ".bash.d/")
  ("/Users/adrien/Development/csq/puppet-modules/admin/" . "hiera/")
  ("/Users/adrien/Development/csq/puppet-modules/mandalore/" . "hiera/")
- ("/Users/adrien/Development/csq/" . "alias-goals-processing/")
+ ("/Users/adrien/Development/csq/" . "ansible-dev/")
  ("/Users/adrien/Development/" . "csq/")
  ("/Users/adrien/Development/csq/mousetestsync/" . "etc/")
  ("/Users/adrien/Development/csq/puppet-modules/coruscant/" . "manifests/")
@@ -47,280 +86,280 @@
  ("/Users/adrien/Development/csq/puppet-modules/kamino/" . "manifests/")
  ("/Users/adrien/Development/csq/puppet-modules/kafka/" . "manifests/")
  ("/Users/adrien/Development/csq/puppet-modules/yavin/" . "manifests/")
- ("/Users/adrien/Development/csq/puppet-modules/" . "athallian/")
+ ("/Users/adrien/Development/csq/puppet-modules/" . "bootstrap/")
  ("/Users/adrien/Development/csq/puppet-modules-admin/hadoop/" . "manifests/")
  ("/Users/adrien/Development/csq/puppet-modules-admin/" . "hadoop/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/adrien/.bash.d/"
- "/Users/adrien/"
- "/Users/adrien/Development/csq/tick-scripts/"
- "/Users/adrien/Development/csq/ansible-dev/environments/staging/"
- "/Users/adrien/Development/csq/ansible-dev/environments/local/"
- "/Users/adrien/Development/csq/ansible-dev/environments/production/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/tasks/"
- "/Users/adrien/Development/csq/ansible-dev/environments/dev/"
  "/Users/adrien/Development/csq/ansible-dev/"
- "/Users/adrien/Development/csq/ansible-dev/roles/dj-wasabi.telegraf/"
- "/Users/adrien/Development/csq/EEGrunt/"
- "/Users/adrien/Development/csq/ansible-dev/environments/future/"
- "/Users/adrien/Development/csq/puppet-modules/athallian/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/hpgpagecarto/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/hypergate/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/korasa/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/kamino/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/mandallia/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/telegraf/manifests/"
- "/Users/adrien/Development/csq/alias-goals-processing/config/"
- "/Users/adrien/Development/csq/alias-goals-processing/includes/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-bulktags/defaults/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-bulktags/tasks/"
- "/Users/adrien/Development/csq/presentation/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.common/meta/"
+ "/Users/adrien/Development/csq/tick-scripts/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/staging/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/"
+ "/Volumes/Extension/Development/csq/ansible-dev/scripts/"
+ "/Volumes/Extension/Development/csq/ansible-dev/environments/staging/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/environments/production/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/tasks/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.users/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.users/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/production/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/tasks/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.inmemory_inventory/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.common/files/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.common/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/tasks/"
+ "/Users/adrien/Development/csq/puppet-modules/bootstrap/files/home/"
+ "/Users/adrien/Development/csq/puppet-modules/hbase/templates/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-sg/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-sg/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/meta/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/future/eu-west-1/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/production/us-east-1/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/next1/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/vars/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/defaults/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/meta/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/templates/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/handlers/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.burrow/handlers/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/meta/"
+ "/Users/adrien/Development/csq/ansible-dev/scripts/"
+ "/Users/adrien/.bash.d/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.emr-provision/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.elasticsearch5/tasks/"
+ "/Users/adrien/Development/csq/ansible-dev/environments/dev/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.elasticsearch5/vars/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/elastic.elasticsearch/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/teams/"
+ "/Volumes/Extension/Development/csq/jenkins-jobs/jobs/"
+ "/Volumes/Extension/Development/csq/ansible-dev/environments/dev/eu-west-1/"
+ "/Volumes/Extension/Development/csq/ansible-dev/roles/csq.scala-app/defaults/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/meta/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/templates/"
  "/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/tasks/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/meta/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-api-tools/tasks/"
- "/Users/adrien/.aws/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/tasks/"
- "/Users/adrien/Development/csq/ansible-dev/roles/csq.supervisor/tasks/"
- "/Users/adrien/Development/csq/puppet-modules/elasticsearch/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/elasticsearch/hiera/"
- "/Users/adrien/Development/ansigenome/ansigenome/"
- "/Users/adrien/Development/ansigenome/bin/"
- "/Users/adrien/Development/csq/geonosis/aws/"
- "/Users/adrien/Development/csq/puppet-modules/yavin/templates/"
- "/Users/adrien/Downloads/ex-thomas-ragonneau/Test technique Content Square/sources/"
- "/Users/adrien/Development/csq/puppet-modules/admin/hiera/"
- "/Users/adrien/Development/csq/alias-goals-processing/"
- "/Users/adrien/Development/csq/puppet-modules/coruscant/hiera/"
- "/Users/adrien/Development/csq/kebyc/src/python/"
- "/Users/adrien/Development/csq/kebyc/"
- "/Users/adrien/Development/csq/puppet-modules/mandallia/hiera/"
- "/Users/adrien/Development/csq/puppet-modules/mandalore/hiera/"
- "/Users/adrien/Development/csq/puppet-modules/kamino/hiera/"
- "/Users/adrien/Development/csq/puppet-modules/rabbitmq/hiera/"
- "/Users/adrien/Development/csq/puppet-modules/mandalore/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/admin/manifests/"
- "/Users/adrien/Development/csq/puppet-modules/admin/templates/galactic_core/"
+ "/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/meta/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "contentsquare.sh"
- ".alias"
- "env.sh"
- "cpu.tick"
- "ntp.tick"
- "mem.tick"
- "disk.tick"
- "README.md"
- "cs-app-feature"
- "project-parameters"
+ "naboo.yml"
+ "naboo_errors.tick"
+ "meta_scala-webservices.yml"
+ "hpg-mrrobot.yml"
+ "meta_nodejs-app.yml"
+ "kafka-butters"
+ "hypergate.yml"
+ "hypergate.retry"
+ "kamino.yml"
+ "hpg-abtest.yml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/adrien/.bash.d/" (22542 25877 0 0) "passwords.sh" "git-commands.sh" "env.sh" "aws-commands.sh" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/" (22747 31929 0 0) "www-content-square-fr.yml" "vpn.yml" "uxasqsprocessing.yml" "users.yml" "update-requirements.sh" "tests-csq-io.yml" "tests/" "test.sh" "teams/" "tag-builder.yml" "sinopia.yml" "security-upgrades.yml" "scripts/" "roles/" "requirements-ansible.yml" "redshift-proxy.yml" "project-parameters.yml" "phpdb.yml" "php-symfony-app.yml" "packer/" "naboo.yml" "meta_scala-webservices.yml" "meta_scala-pipeline-component.yml" "meta_nodejs-app.yml" "mandalore.yml" "mandalore-for-useast1.yml" "mandallia.yml" "mandalike.yml" "mandalike-for-useast1.yml" "korasa.yml" "kapacitor.yml" "kamino.yml" "kafka-randy.yml" "kafka-randy.retry" "kafka-butters.yml" "jenkins-slave-app.yml" "jenkins-slave-ansible.yml" "ipsec-vpn.yml" "inventory/" "hypergate.yml" "hypergate-demo.yml" "hub.yml" "hpg-zoning.yml" "hpg-segment.yml" "hpg-pages-comparator.yml" "hpg-pages-comparator.retry" "hpg-pagecarto.yml" "hpg-mrrobot.yml" "hpg-dashboard.yml" "hpg-autozone.yml" "hpg-abtest.yml" "group_vars/" "fluent.yml" "fluent-bots.yml" "filter_plugins/" "examples/" "es-uxa.yml" "environments/" "emrcollect.yml" "docs/" "de-alerts.yml" "da-alerts.yml" "cs-app-feature.yml" "cs-app-feature.retry" "athallian.yml" "athallian-for-useast1.yml" "artifactory.yml" "apply_common.yml" "ansible.cfg" "Vagrantfile" "README.md" ".vagrant/" ".reviewboardrc" ".gitignore" ".git/" ".ansible.cfg" "../" "./")
 
- ("/Users/adrien/Development/config/" (22488 22208 0 0) "vim/" "tools/" "setup.sh" "README.md" "nano/" "misc/" "git/" "emacs/" "bash/" ".gitmodules" ".git/" "../" "./")
+ ("/Users/adrien/Development/csq/tick-scripts/" (22739 56972 0 0) "uxanalytics-state.tick" "tag-builder-state.tick" "shell-scripts/" "projectparams.tick" "ntp.tick" "naboo_errors.tick" "naboo_batch.tick" "mem.tick" "mandalore_errors.tick" "mandalore_batch.tick" "mandallia_errors.tick" "mandallia_batch.tick" "mandalike_errors.tick" "mandalike_batch.tick" "kamino_batch.tick" "kafka_mandalore.tick" "kafka_mandallia.tick" "kafka_mandalike.tick" "kafka_fluent.tick" "ipsec-vpn.tick" "hypergate.tick" "hub-state.tick" "hpgpagecarto.tick" "haproxy.tick" "elasticsearch_unassigned_shards.tick" "elasticsearch_heap.tick" "dist.incl" "disk.tick" "deadman_batch.tick" "csappfeature.tick" "cpu.tick" "athallian_batch.tick" "ansible-dev/" "README.md" ".reviewboardrc" ".gitmodules" ".git/" "../" "./")
 
- ("/Users/adrien/Development/config/bash/" (22542 25918 0 0) "bashrc" "bash.d/" "alias" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/staging/eu-west-1/" (22738 39599 0 0) "uxasqsprocessing" "uxanalytics" "tag-builder" "sinopia" "project-params" "naboo" "mandalore" "mandallia" "mandalike" "korasa" "kapacitor" "kamino" "kafka-randy" "kafka-butters" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pcomp" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "hpg-autozone" "global" "fluent-bots" "fluent" "esuxa" "emrcollect" "default" "cs-app-feature" "artifactory" "../" "./")
 
- ("/Users/adrien/Development/csq/tick-scripts/" (22542 13799 0 0) "shell-scripts/" "README.md" "ntp.tick" "mem.tick" "haproxy-production.tick" "dist.incl" "disk.tick" "deadman.tick" "cpu.tick" ".reviewboardrc" ".git/" ".#README.md" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/production/eu-west-1/" (22739 41615 0 0) "www-content-square-fr" "wiki" "vpn" "uxasqsprocessing" "uxanalytics" "tests-csq-io" "tag-builder" "sinopia" "redshift-proxy" "project-params" "phpdb" "naboo" "mandalore-for-useast1" "mandalore" "mandallia" "mandalike-for-useast1" "mandalike" "kapacitor" "kamino" "kafka-randy" "kafka-butters" "ipsec-vpn" "hypergate-demo" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "hpg-abtest.txt" "global" "fluent-bots" "fluent" "esuxa" "emrcollect" "default" "de-alerts" "da-alerts" "cs-app-feature" "athallian-for-useast1" "athallian" "artifactory" "../" "./")
 
- ("/Users/adrien/" (22540 32556 0 0) "VirtualBox VMs/" "ssh.sh" "Sites/" "Public/" "Pictures/" "octave/" "Music/" "Movies/" "Local/" "Library/" "Google Drive/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".Xauthority" ".virtualenvs/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".uuid" ".Trash/" ".subversion/" ".stack/" ".ssh/" ".sqlworkbench/" ".sqlite_history" ".scala_history" ".sbt/" ".s3cfg-perso" ".s3cfg" ".rnd" ".rclone.conf" ".rbtools-cookies" ".python_history" ".python-eggs/" ".pylint.d/" ".puppet/" ".psql_history" ".profile" ".oracle_jre_usage/" ".octave_packages" ".octave_hist" ".npm/" ".mplayer/" ".matplotlib/" ".macports/" ".m2/" ".local/" ".lesshst" ".ivy2/" ".iterm2_shell_integration.bash" ".iterm2/" ".ipython/" ".influx_history" ".IdeaIC14/" ".htoprc" ".gitconfig" ".git-prompt.sh" ".ghc/" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dbus-keyrings/" ".cups/" ".config/" ".CloudStation/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash.d/" ".aws/" ".autobench.conf" ".atom/" ".ansigenome.conf" ".ansible_vault_passwd" ".ansible_galaxy" ".ansible.cfg" ".ansible/" ".android/" ".ammonite/" ".alias" ".496621.padl" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/" (22737 1278 0 0) "zookeeper.yml" "www-content-square-fr.yml" "wiki.yml" "vpn.yml" "uxasqsprocessing.yml" "users.yml" "update-requirements.sh" "tests-csq-io.yml" "tests/" "test.sh" "teams/" "tag-builder.yml" "sinopia.yml" "security-upgrades.yml" "scripts/" "roles/" "requirements-ansible.yml" "redshift-proxy.yml" "project-parameters.yml" "phpdb.yml" "php-symfony-app.yml" "packer/" "naboo.yml" "meta_scala-webservices.yml" "meta_scala-pipeline-component.yml" "meta_nodejs-app.yml" "mandalore.yml" "mandalore-for-useast1.yml" "mandallia.yml" "mandalike.yml" "mandalike-for-useast1.yml" "korasa.yml" "kapacitor.yml" "kamino.yml" "kafka-randy.yml" "kafka-butters.yml" "jenkins-slave-app.yml" "jenkins-slave-ansible.yml" "ipsec-vpn.yml" "inventory/" "hypergate.yml" "hypergate.retry" "hypergate-demo.yml" "hub.yml" "hpg-zoning.yml" "hpg-segment.yml" "hpg-pages-comparator.yml" "hpg-pagecarto.yml" "hpg-mrrobot.yml" "hpg-mrrobot.retry" "hpg-dashboard.yml" "hpg-autozone.yml" "hpg-abtest.yml" "group_vars/" "fluent.yml" "fluent-bots.yml" "filter_plugins/" "examples/" "es-uxa.yml" "environments/" "emrcollect.yml" "docs/" "de-alerts.yml" "da-alerts.yml" "cs-app-feature.yml" "athallian.yml" "athallian-for-useast1.yml" "artifactory.yml" "apply_common.yml" "ansible.cfg" "Vagrantfile" "README.md" ".vagrant/" ".reviewboardrc" ".gitignore" ".git/" ".ansible.cfg" "../" "./")
 
- ("/Users/adrien/Development/csq/" (22537 52221 0 0) "yavin/" "tick-scripts/" "tcollector/" "redshift-tables/" "redshift-driver/" "redshift-backup/" "r2d2/" "r1-replay/" "puppet-modules-production/" "puppet-modules-dev/" "puppet-modules/" "puppet-dev/" "proto-datadog/" "presentation/" "postgresql-driver/" "opentsdb.alerting/" "mousetestsync/" "mandalore/" "mandallia/" "kathol/" "kamino/" "jenkins-jobs/" "jenkins-job-builder/" "jenkins-helpers/" "http-queries/" "holobook/" "hkamino/" "hk/" "grugnak/" "geonosis/" "EEGrunt/" "dstrack/" "docs/" "coruscant/" "bl392/" "bl-39/" "BACKEND-978/" "app-conf/" "ansible-dev/" "alias-goals-processing/" ".DS_Store" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/tests/" (22730 46843 0 0) "test_guidelines.py" "test_ec2_script.py" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/tick-scripts/shell-scripts/" (22541 50203 0 0) "k.sh" "generate-dot-files.sh" "deploy.sh" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/scripts/" (22730 43579 0 0) "lazy-playbook.sh" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/staging/" (22536 52598 0 0) "uxanalytics" "teams/" "sinopia" "project-params" "kapacitor" "kafkamanager" "icinga" "hub" "global" "cs-app-feature" "artifactory" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/production/eu-west-1/" (22730 25949 0 0) "www-content-square-fr" "wiki" "vpn" "uxasqsprocessing" "uxanalytics" "tests-csq-io" "tag-builder" "sinopia" "redshift-proxy" "project-params" "phpdb" "naboo" "mandalore-for-useast1" "mandalore" "mandallia" "mandalike-for-useast1" "mandalike" "kapacitor" "kamino" "kafka-randy" "kafka-butters" "ipsec-vpn" "hypergate-demo" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "hpg-abtest.txt" "global" "fluent-bots" "fluent" "esuxa" "emrcollect" "default" "de-alerts" "da-alerts" "cs-app-feature" "athallian-for-useast1" "athallian" "artifactory" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/future/" (22536 52605 0 0) "uxanalytics" "teams/" "tag-builder" "project-params" "jenkins-slave-ansible" "hub" "global" "cs-app-feature" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/staging/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/local/" (22536 50742 0 0) "teams/" "project-parameters" "kapacitor" "kafkamanager" "icinga" "global" "cs-app-feature" "artifactory" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/staging/eu-west-1/" (22730 25920 0 0) "uxasqsprocessing" "uxanalytics" "tag-builder" "sinopia" "project-params" "naboo" "mandalore" "mandallia" "mandalike" "korasa" "kapacitor" "kamino" "kafka-randy" "kafka-butters" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "global" "fluent-bots" "fluent" "esuxa" "emrcollect" "default" "cs-app-feature" "artifactory" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/production/" (22536 52285 0 0) "teams/" "sinopia" "project-parameters" "kapacitor" "global" "cs-app-feature" "artifactory" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/tasks/" (22728 4245 0 0) "user.yml" "sudoers.yml" "main.yml" "group.yml" "administrators.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/" (22536 52269 0 0) "zookeeper.yml" "Vagrantfile" "users.yml" "tests/" "test.sh" "tcollector.yml" "tag-builder.yml" "sinopia.yml" "security-upgrades.yml" "roles/" "requirements-ansible.yml" "README.md" "project-parameters.yml" "php-symfony-app.yml" "packer/" "kapacitor.yml" "kafkamanager.yml" "kafka.yml" "jenkins-slave-app.yml" "jenkins-slave-ansible.yml" "inventory/" "group_vars/" "examples/" "es-uxa.yml" "environments/" "docs/" "cs-app-feature.yml" "cloudwatch-alarms.yml" "artifactory.yml" "apply_common.yml" "ansible.cfg" ".vagrant/" ".reviewboardrc" ".gitignore" ".git/" ".ansible.cfg" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/defaults/" (22728 3943 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/tasks/" (22536 51249 0 0) "main.yml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.users/" (22569 49497 0 0) "tasks/" "handlers/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/" (22443 6738 0 0) "tasks/" "README.md" "defaults/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.users/defaults/" (22728 858 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/dev/" (22536 50665 0 0) "zookeeper" "uxanalytics" "teams/" "kafkamanager" "kafka" "hub" "global" "es-uxa" "cs-app-feature" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.users/tasks/" (22728 600 0 0) "user.yml" "sudoers.yml" "main.yml" "group.yml" "administrators.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/meta/" (22536 43401 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/defaults/" (22726 28278 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/dj-wasabi.telegraf/" (22536 36908 0 0) "tests/" "templates/" "tasks/" "README.md" "playbook.yml" "molecule.yml" "meta/" "handlers/" "defaults/" "CHANGELOG.md" ".travis.yml" ".gitignore" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/" (22721 36855 0 0) "sinopia-ansible/" "resmo.ntp/" "nickhammond.logrotate/" "kbrebanov.ssmtp/" "geerlingguy.varnish/" "geerlingguy.php/" "geerlingguy.nodejs/" "geerlingguy.nginx/" "elastic.elasticsearch/" "dj-wasabi.telegraf/" "csq.zookeeper/" "csq.uxasqsprocessing/" "csq.uxanalytics/" "csq.users_system/" "csq.users/" "csq.supervisor/" "csq.security-upgrades/" "csq.scala-app/" "csq.privatekeys/" "csq.pip/" "csq.nodejs-app/" "csq.meta-php-symfony-app/" "csq.meta-instances/" "csq.loggly/" "csq.kapacitor/" "csq.kafka/" "csq.jenkins-slave/" "csq.java8/" "csq.ipsec-vpn/" "csq.inmemory_inventory/" "csq.hub/" "csq.hostname/" "csq.haproxy/" "csq.fluent/" "csq.emr-provision/" "csq.emr-manage/" "csq.elasticsearch5/" "csq.ec2-get-facts/" "csq.ec2-bulktags/" "csq.e2e-testing/" "csq.docker/" "csq.common/" "csq.commands/" "csq.cloudwatch-system-monitoring/" "csq.boto/" "csq.aws-vol/" "csq.aws-sn/" "csq.aws-sg/" "csq.aws-route53/" "csq.aws-elb/" "csq.aws-ec2/" "csq.aws-ebs/" "csq.aws-cloudwatch-alarms/" "csq.apt-transport-https/" "csq.ansible/" "cmprescott.chrome/" "bbaassssiiee.artifactory/" "../" "./")
 
- ("/Users/adrien/Development/csq/EEGrunt/" (22535 34904 0 0) "README.md" "plots/" "install_linux_dependencies.sh" "EEGrunt.pyc" "EEGrunt.py" "data/" "convert_txt_to_csv.py" "analyze_ecg_data.py" "analyze_ecg_channel.py" "analyze_data.py" "analyze_channel.py" ".gitignore" ".git/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/" (22721 36856 0 0) "vars/" "templates/" "tasks/" "meta/" "handlers/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/" (22487 48817 0 0) "templates/" "tasks/" "README.md" "meta/" "handlers/" "defaults/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/templates/" (22726 27364 0 0) "systemd-unit.service.j2" "server.properties.j2" "log4j.properties.j2" "kafka-admin-env.sh.j2" "burrow.service.j2" "burrow.cfg.j2" "burrow-logging.cfg.j2" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/defaults/" (22535 14612 0 0) "main.yml" ".#main.yml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/production/" (22544 57925 0 0) "us-east-1/" "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/" (22534 13806 0 0) "sinopia-ansible/" "resmo.ntp/" "nickhammond.logrotate/" "kbrebanov.ssmtp/" "geerlingguy.varnish/" "geerlingguy.php/" "geerlingguy.nodejs/" "geerlingguy.nginx/" "elastic.elasticsearch/" "dj-wasabi.telegraf/" "csq.zookeeper/" "csq.uxanalytics/" "csq.users_system/" "csq.users/" "csq.tcollector/" "csq.supervisor/" "csq.security-upgrades/" "csq.privatekeys/" "csq.pip/" "csq.nodejs-app/" "csq.meta-php-symfony-app/" "csq.meta-instances/" "csq.loggly/" "csq.kapacitor/" "csq.kafkamanager/" "csq.kafka/" "csq.jenkins-slave/" "csq.java8/" "csq.inmemory_inventory/" "csq.hub/" "csq.hostname/" "csq.ec2-get-facts/" "csq.ec2-bulktags/" "csq.e2e-testing/" "csq.docker/" "csq.common/" "csq.cloudwatch-system-monitoring/" "csq.boto/" "csq.aws-sn/" "csq.aws-sg/" "csq.aws-route53/" "csq.aws-elb/" "csq.aws-ec2/" "csq.aws-ebs/" "csq.aws-cloudwatch-alarms/" "csq.apt-transport-https/" "csq.ansible/" "cmprescott.chrome/" "bbaassssiiee.artifactory/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/" (22721 36855 0 0) "sinopia-ansible/" "resmo.ntp/" "nickhammond.logrotate/" "kbrebanov.ssmtp/" "geerlingguy.varnish/" "geerlingguy.php/" "geerlingguy.nodejs/" "geerlingguy.nginx/" "elastic.elasticsearch/" "dj-wasabi.telegraf/" "csq.zookeeper/" "csq.uxasqsprocessing/" "csq.uxanalytics/" "csq.users_system/" "csq.users/" "csq.supervisor/" "csq.security-upgrades/" "csq.scala-app/" "csq.privatekeys/" "csq.pip/" "csq.nodejs-app/" "csq.meta-php-symfony-app/" "csq.meta-instances/" "csq.loggly/" "csq.kapacitor/" "csq.kafka/" "csq.jenkins-slave/" "csq.java8/" "csq.ipsec-vpn/" "csq.inmemory_inventory/" "csq.hub/" "csq.hostname/" "csq.haproxy/" "csq.fluent/" "csq.emr-provision/" "csq.emr-manage/" "csq.elasticsearch5/" "csq.ec2-get-facts/" "csq.ec2-bulktags/" "csq.e2e-testing/" "csq.docker/" "csq.common/" "csq.commands/" "csq.cloudwatch-system-monitoring/" "csq.boto/" "csq.aws-vol/" "csq.aws-sn/" "csq.aws-sg/" "csq.aws-route53/" "csq.aws-elb/" "csq.aws-ec2/" "csq.aws-ebs/" "csq.aws-cloudwatch-alarms/" "csq.apt-transport-https/" "csq.ansible/" "cmprescott.chrome/" "bbaassssiiee.artifactory/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/athallian/manifests/" (22332 19692 0 0) "init.pp" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/defaults/" (22722 47306 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/athallian/" (22332 19692 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/tasks/" (22722 46240 0 0) "main.yml" "kafka.yml" "env.yml" "burrow.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/hpgpagecarto/manifests/" (22406 13846 0 0) "init.pp" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/" (22721 36856 0 0) "vars/" "templates/" "tasks/" "meta/" "handlers/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/hpgpagecarto/" (22406 13846 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/handlers/" (22722 46594 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/hypergate/manifests/" (22532 63556 0 0) "init.pp" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.inmemory_inventory/tasks/" (22708 2927 0 0) "main.yml" "aws.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/hypergate/" (21984 8979 0 0) "templates/" "manifests/" "hiera/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.inmemory_inventory/" (22617 16470 0 0) "tasks/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/korasa/manifests/" (22532 63466 0 0) "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/files/" (22717 37446 0 0) "dot_vimrc" "dot_source.sh" "dot_quotes" "dot_bashrc" "dot_alias" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/korasa/" (21984 8979 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/tasks/" (22717 35261 0 0) "packages.yml" "main.yml" "bash_config.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandallia/manifests/" (22532 63429 0 0) "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/tasks/" (22717 32513 0 0) "main.yml" "kafka.yml" "burrow.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kamino/manifests/" (22532 62392 0 0) "init.pp" "env.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/" (22717 33095 0 0) "tasks/" "meta/" "files/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kamino/" (21984 8979 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/files/home/" (22717 33067 0 0) "dot_vimrc" "dot_vim/" "dot_quotes" "dot_profile" "dot_emacs" "dot_bash.d/" "dot_alias" ".emacs.d/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/" (22532 62392 0 0) "zookeeper/" "yavin/" "wget/" "vcsrepo/" "varnish/" "test/" "telegraf/" "td-agent/" "tcollector/" "synchropagecarto/" "supervisord/" "stdlib/" "sshkeygen/" "spark16/" "spark/" "snmpd/" "sarlacc/" "s4cmd/" "s3mirror/" "s3cmd/" "README.md" "rabbitmq/" "python/" "puppet/" "pig/" "php5-fpm/" "ntp/" "nodejs/" "nginx/" "miraluka/" "mandalore/" "mandallia/" "logrotate/" "loggly/" "korasa/" "kets/" "kamino/" "kafkaoffsetmonitor/" "kafkamanager/" "kafka/" "java/" "icinga2/" "hypergate/" "hpgpagecarto/" "hbase/" "haproxy/" "hadoop/" "git-deploy/" "elasticsearch/" "datacat/" "coruscant/" "concat/" "bootstrap/" "awslib/" "athallian/" "archive/" "alerting/" "admin/" ".reviewboardrc" ".gitmodules" ".gitignore" ".git/" ".editorconfig" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/files/home-admin/" (22663 3483 0 0) "dot_s3cfg" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandalore/manifests/" (22532 63315 0 0) "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/files/" (22663 3483 0 0) "sudoers/" "rclocal/" "logrotate/" "home-admin/" "home/" "apt/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/telegraf/manifests/" (22532 62392 0 0) "service.pp" "params.pp" "install.pp" "input.pp" "init.pp" "config.pp" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/bootstrap/" (22663 3483 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/telegraf/" (22532 62392 0 0) "tests/" "templates/" "spec/" "README.md" "Rakefile" "metadata.json" "manifests/" "LICENSE" "hiera/" "Gemfile" ".travis.yml" ".rspec" ".gitignore" ".fixtures.yml" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/" (22663 3491 0 0) "zookeeper/" "yavin/" "wget/" "vcsrepo/" "varnish/" "test/" "telegraf/" "td-agent/" "tcollector/" "synchropagecarto/" "supervisord/" "stdlib/" "sshkeygen/" "spark16/" "spark/" "snmpd/" "sarlacc/" "s4cmd/" "s3mirror/" "s3cmd/" "rabbitmq/" "python/" "puppet/" "pig/" "php5-fpm/" "ntp/" "nodejs/" "nginx/" "miraluka/" "mandalore/" "mandallia/" "logrotate/" "loggly/" "korasa/" "kets/" "kamino/" "kafkaoffsetmonitor/" "kafkamanager/" "kafka/" "java/" "icinga2/" "hypergate/" "hpgpagecarto/" "hbase/" "haproxy/" "hadoop/" "git-deploy/" "elasticsearch/" "datacat/" "coruscant/" "concat/" "bootstrap/" "awslib/" "athallian/" "archive/" "alerting/" "admin/" "README.md" ".reviewboardrc" ".gitmodules" ".gitignore" ".git/" ".editorconfig" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/telegraf/hiera/" (22532 62405 0 0) "common.yaml" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/hbase/templates/" (22663 3484 0 0) "hbase-site.erb" "hbase-env.erb" "graceful_stop.erb" "env_hbase.erb" "../" "./")
 
- ("/Users/adrien/Development/csq/alias-goals-processing/config/" (22505 2424 0 0) "parameters_goal_zoning_prod.json" "parameters_goal_zoning_preprod.json" "parameters_goal_zoning_future.json" "parameters_dev.json" "parameters_continuous.json" "parameters_alias_prod.json" "parameters_alias_preprod.json" "parameters_alias_future.json" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/hbase/" (22663 3484 0 0) "templates/" "manifests/" "hiera/" "files/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/alias-goals-processing/includes/" (22505 2386 0 0) "ZoningProcess.py" "UpdateFixturesData.py" "Redshift.py" "QueueManagement.py" "Process.py" "Mail.py" "GoalProcess.py" "Error.py" "DatabaseManagement.py" "CreateQuery.py" "Configuration.py" "BaseProcess.py" "AliasProcess.py" "__init__.py" "../" "./")
+ ("/Users/adrien/Development/csq/puppet-modules/hbase/manifests/" (22713 33995 0 0) "regionserver.pp" "master.pp" "init.pp" "hannibal.pp" "../" "./")
 
- ("/Users/adrien/Development/csq/alias-goals-processing/" (22505 2522 0 0) "testSQSLongPolling.py" "testDatabase.py" "test/" "scriptBash.sh" "script.py" "README.md" "insertInQueue.py" "includes/" "config/" "__init__.py" ".reviewboardrc" ".gitignore" ".git/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/" (22593 18250 0 0) "staging/" "production/" "next1/" "local/" "future/" "dev/" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-bulktags/" (22496 2282 0 0) "tasks/" "README.md" "defaults/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/tasks/" (22709 38527 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-bulktags/defaults/" (22487 48817 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-elb/" (22443 6738 0 0) "tasks/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-bulktags/tasks/" (22489 26932 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-sg/tasks/" (22683 7472 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/" (22488 26469 0 0) "user-agent-utils/" "universal-wiki-converter/" "traxxcloud/" "training/" "reviewboard/" "rclone/" "pygobject-3.10.2/" "pdsh-2.18/" "parquet-tools/" "parquet-mr-apache-parquet-1.7.0/" "parquet-mr/" "pagerduty/" "meld-3.14.0/" "meld" "intellij-haskell/" "hub" "haskell-docs/" "djblets/" "csq/" "config/" "avro2parquet/" "autobench/" "articles/" "ansigenome/" "ansible-foo/" "android-sdk/" "android/" "adrien-mogenet.github.io/" ".reviewboardrc" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.aws-sg/defaults/" (22710 39970 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/presentation/" (22472 18119 0 0) "slides.vrb" "slides.toc" "slides.tex" "slides.snm" "slides.ps" "slides.pdf" "slides.out" "slides.nav" "slides.log" "slides.dvi" "slides.aux" "re-nfa-dfa.pdf" "Makefile" "IR-Avis-PrimMEN-2016-16940630651640.pdf" "images/" "glush.pdf" ".git/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/meta/" (22709 38508 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.hostname/" (22452 28030 0 0) "tasks/" "README.md" "meta/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/defaults/" (22593 16418 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.hostname/tasks/" (22454 50460 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.meta-instances/" (22544 57925 0 0) "meta/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/tasks/" (22454 47084 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/dev/eu-west-1/" (22709 34931 0 0) "zookeeper" "uxasqsprocessing" "uxanalytics" "project-params" "phpdb" "mystack" "mandalore" "mandallia" "mandalike" "kamino" "kafka-randy" "kafka-butters" "hub" "global" "esuxa" "emrcollect" "cs-app-feature" "athallian" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/meta/" (22453 50383 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/production/us-east-1/" (22709 34320 0 0) "kamino" "kafka-randy" "ipsec-vpn" "global" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/" (22453 50383 0 0) "tasks/" "README.md" "meta/" "defaults/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/production/" (22544 57925 0 0) "us-east-1/" "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/meta/" (22454 47135 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/next1/eu-west-1/" (22709 34311 0 0) "uxasqsprocessing" "uxanalytics" "tag-builder" "project-params" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "global" "cs-app-feature" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-api-tools/tasks/" (22453 50383 0 0) "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/future/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.ec2-api-tools/" (22452 28030 0 0) "tasks/" "README.md" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/future/eu-west-1/" (22709 34607 0 0) "uxasqsprocessing" "uxanalytics" "tag-builder" "project-params" "jenkins-slave-ansible" "hypergate" "hub" "hpg-zoning" "hpg-segment" "hpg-pages-comparator" "hpg-pagecarto" "hpg-mrrobot" "hpg-dashboard" "global" "cs-app-feature" "../" "./")
 
- ("/Users/adrien/.aws/" (22023 46809 0 0) "credentials-perso" "credentials" "config" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/vars/" (22708 24683 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.tcollector/tasks/" (22452 33497 0 0) "main.yml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/meta/" (22708 15598 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.supervisor/" (22443 6738 0 0) "templates/" "tasks/" "README.md" "meta/" "Makefile" "handlers/" "defaults/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.kafka/templates/" (22708 24177 0 0) "systemd-unit.service.j2" "server.properties.j2" "log4j.properties.j2" "burrow.service.j2" "burrow.cfg.j2" "burrow-logging.cfg.j2" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.supervisor/tasks/" (22452 32317 0 0) "supervisor.yml" "main.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/handlers/" (22534 5508 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/group_vars/all/" (22452 28030 0 0) "vault.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.kafka/meta/" (22708 15598 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/group_vars/" (22431 18848 0 0) "all/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.burrow/meta/" (22708 15625 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/roles/csq.common/" (22443 6738 0 0) "README.md" "meta/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.burrow/" (22580 16348 0 0) "vars/" "templates/" "tasks/" "meta/" "handlers/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/ansible-dev/environments/" (22431 18848 0 0) "staging/" "production/" "local/" "future/" "dev/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.burrow/handlers/" (22708 14920 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/elasticsearch/manifests/" (22444 15248 0 0) "template.pp" "service.pp" "service/" "script.pp" "ruby.pp" "repo.pp" "python.pp" "plugin.pp" "params.pp" "package.pp" "node.pp" "instance.pp" "init.pp" "csplugins.pp" "config.pp" "admin.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/scripts/" (22703 133 0 0) "lazy-playbook.sh" "auto-cidr.py" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/elasticsearch/hiera/" (22444 15334 0 0) "ra006-data.cs.dis-hosting.net.yaml" "ra005-data.cs.dis-hosting.net.yaml" "ra004-data.cs.dis-hosting.net.yaml" "ra003-data.cs.dis-hosting.net.yaml" "ra002-data.cs.dis-hosting.net.yaml" "ra001-data.cs.dis-hosting.net.yaml" "esm-production.yaml" "common.yaml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/filter_plugins/" (22704 23054 0 0) "auto_cidr.pyc" "auto_cidr.py" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/elasticsearch/" (22242 56282 0 0) "templates/" "spec/" "README.md" "Rakefile" "metadata.json" "manifests/" "LICENSE" "lib/" "hiera/" "Gemfile" "CONTRIBUTORS" "CONTRIBUTING.md" "CHANGELOG.md" ".pmtignore" ".gitignore" ".fixtures.yml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/" (22593 18250 0 0) "staging/" "production/" "next1/" "local/" "future/" "dev/" "../" "./")
 
- ("/Users/adrien/Development/csq/coruscant/src/main/scala/com/contentsquare/coruscant/" (22443 28022 0 0) "util/" "T1ToF1.scala" "Registrator.scala" "LR1ToT1.scala" "FileOrganizer.scala" "EventParser.scala" "enrichment/" "Coruscant.scala" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/next1/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/ansigenome/ansigenome/" (22443 18431 0 0) "utils.pyc" "utils.py" "ui.pyc" "ui.py" "test_helpers.pyc" "test_helpers.py" "scan.pyc" "scan.py" "run.pyc" "run.py" "init.pyc" "init.py" "export.pyc" "export.py" "data/" "constants.pyc" "constants.py" "config.pyc" "config.py" "color.pyc" "color.py" "__init__.pyc" "__init__.py" "../" "./")
+ ("/Users/adrien/.bash.d/" (22701 48656 0 0) "passwords.sh" "git-commands.sh" "env.sh" "contentsquare.sh" "aws-commands.sh" "../" "./")
 
- ("/Users/adrien/Development/ansigenome/bin/" (22443 18027 0 0) "wheel" "python3.5" "python3" "python-config" "python" "pip3.5" "pip3" "pip" "easy_install-3.5" "easy_install" "ansigenome" "activate_this.py" "activate.fish" "activate.csh" "activate" "../" "./")
+ ("/Users/adrien/" (22692 9953 0 0) "Wine Files/" "VirtualBox VMs/" "Sites/" "Public/" "Pictures/" "Music/" "Movies/" "Local/" "Library/" "isus/" "Google Drive/" "Downloads/" "Documents/" "Development/" "Desktop/" "Applications/" ".Xauthority" ".virtualenvs/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".uuid" ".Trash/" ".subversion/" ".stack/" ".ssh/" ".sqlworkbench/" ".sqlite_history" ".SoulseekQt/" ".scala_history" ".sbt/" ".s3cfg-perso" ".s3cfg" ".rstudio-desktop/" ".rnd" ".Rhistory" ".rclone.conf" ".rbtools-cookies" ".python_history" ".python-eggs/" ".pylint.d/" ".puppet/" ".psql_history" ".profile" ".oracle_jre_usage/" ".octave_packages" ".octave_hist" ".mplayer/" ".matplotlib/" ".macports/" ".m2/" ".local/" ".lesshst" ".ivy2/" ".iterm2_shell_integration.bash" ".iterm2/" ".ipython/" ".influx_history" ".IdeaIC14/" ".htoprc" ".gitconfig" ".git-prompt.sh" ".ghc/" ".gem/" ".emacs.d/" ".emacs" ".DS_Store" ".dbus-keyrings/" ".cups/" ".config/" ".CloudStation/" ".CFUserTextEncoding" ".cache/" ".cabal/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash.d-save/" ".bash.d/" ".aws/" ".autobench.conf" ".atom/" ".ansigenome.conf" ".ansible_vault_passwd" ".ansible_galaxy" ".ansible.cfg" ".ansible/" ".android/" ".ammonite/" ".alias" ".496621.padl" "../" "./")
 
- ("/Users/adrien/Development/ansigenome/" (22443 5537 0 0) "VERSION" "test/" "setup.py" "RELEASES.txt" "README.rst" "pip-selfcheck.json" "MANIFEST.in" "LICENSE" "lib/" "include/" "docs/" "CHANGELOG.md" "bin/" "ansigenome.egg-info/" "ansigenome/" ".travis.yml" ".Python" ".gitignore" ".git/" "../" "./")
+ ("/Users/adrien/Development/" (22607 3562 0 0) "user-agent-utils/" "universal-wiki-converter/" "traxxcloud/" "training/" "reviewboard/" "rclone/" "pygobject-3.10.2/" "pdsh-2.18/" "parquet-tools/" "parquet-mr-apache-parquet-1.7.0/" "parquet-mr/" "pagerduty/" "meld-3.14.0/" "intellij-haskell/" "haskell-docs/" "go/" "docs.influxdata.com/" "djblets/" "csq/" "config/" "avro2parquet/" "autobench/" "articles/" "ansigenome/" "ansible-foo/" "android-sdk/" "android/" "adrien-mogenet.github.io/" "Indeed/" ".reviewboardrc" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
- ("/Users/adrien/Development/csq/geonosis/aws/" (22441 39754 0 0) "redshift_resize.sh" "includes/" "find_bad_instance_name.py" "../" "./")
+ ("/Users/adrien/Development/csq/" (22692 7265 0 0) "tick-scripts/" "tests-recrutement/" "redshift-driver/" "puppet-modules/" "presentation/" "postgresql-driver/" "mousetestsync/" "linklater/" "kapacibot/" "jenkins-jobs-backup/" "jenkins-jobs/" "jenkins-job-builder/" "jenkins-helpers/" "hkamino/" "grugnak/" "geonosis/" "docs/" "cs-env/" "cerebro/" "cerebral/" "bl-39/" "app-conf/" "ansible-dev/" "alias-goals-processing/" "Burrow/" ".DS_Store" "../" "./")
 
- ("/Users/adrien/Development/csq/geonosis/" (22441 39734 0 0) "redis-tools/" "README.md" "jenkins/" "elasticsearch/" "aws/" ".reviewboardrc" ".gitignore" ".git/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.emr-provision/" (22683 7472 0 0) "tasks/" "meta/" "filter_plugins/" "files/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/geonosis/elasticsearch/" (22441 39804 0 0) "es_pagecarto_restart.sh" ".#es_pagecarto_restart.sh" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.emr-provision/tasks/" (22701 23935 0 0) "setup_cluster.yml" "main.yml" "fill_inventory.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/yavin/templates/" (22423 20570 0 0) "yavin_crontab_recordings.sh.erb" "yavin_crontab_continuous.sh.erb" "yavin_crontab.sh.erb" "yavin.sh.erb" "application.conf.erb" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.elasticsearch5/tasks/" (22692 32056 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Downloads/ex-thomas-ragonneau/Test technique Content Square/sources/" (22375 47423 0 0) "Node.scala" "EX004.scala" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/dev/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/admin/hiera/" (22340 29216 0 0) "ra006-data.cs.dis-hosting.net.yaml" "ra004-data.cs.dis-hosting.net.yaml" "common.yaml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/staging/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/coruscant/hiera/" (22271 50707 0 0) "ra006-data.cs.dis-hosting.net.yaml" "ra004-data.cs.dis-hosting.net.yaml" "common.yaml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.elasticsearch5/vars/" (22674 64669 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/kebyc/src/python/" (22261 27018 0 0) "Kebyc.py" "Espos.py" ".#Espos.py" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.elasticsearch5/tasks/" (22692 32056 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/kebyc/" (22258 49970 0 0) "src/" "resources/" "README.md" "LICENCE" "keybic" "check-tags" ".reviewboardrc" ".gitignore" ".git/" ".#flux" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/elastic.elasticsearch/defaults/" (22534 13792 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandallia/hiera/" (22257 27347 0 0) "mandallia-staging.yaml" "mandallia-production.yaml" "mandallia-dev.yaml" "common.yaml" ".#mandallia-staging.yaml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/elastic.elasticsearch/" (22534 13792 0 0) "vars/" "test/" "templates/" "tasks/" "meta/" "handlers/" "filter_plugins/" "files/" "elasticsearch.iml" "defaults/" "ansible.cfg" "README.md" "LICENSE" "Gemfile.lock" "Gemfile" ".kitchen.yml" ".gitignore" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandalore/hiera/" (22257 27355 0 0) "mandalore-staging.yaml" "mandalore-production.yaml" "mandalore-dev.yaml" "mandalike-staging.yaml" "mandalike-production.yaml" "mandalike-dev.yaml" "common.yaml" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.elasticsearch5/" (22626 28072 0 0) "vars/" "templates/" "tasks/" "handlers/" "filter_plugins/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandallia/" (21984 8979 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/teams/" (22690 52901 0 0) "platform.yml" "mobile.yml" "integrator.yml" "frontend.yml" "datamining.yml" "dataengineering.yml" "admin.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kamino/hiera/" (22256 10271 0 0) "kamino-staging.yaml" "common.yaml" "../" "./")
+ ("/Volumes/Extension/Development/csq/jenkins-jobs/jobs/" (22685 37707 0 0) "uxanalytics.yml" "tracking-tag-build.yml" "tick-scripts.yml" "testing-tag-build.yml" "tcollector.yml" "scala-service.yml" "scala-package.yml" "scala-jar.yml" "python-programs.yml" "nodejs-service.yml" "kafka-manager-builder.yml" "jenkins-jobs.yml" "jenkins-job-builder.yml" "hub.yml" "app-conf.yml" "ansible-dev.yml" "ansible-common.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/rabbitmq/hiera/" (22252 12131 0 0) "rabbitmq-galaxy-staging.yaml" "rabbitmq-galaxy-production.yaml" "common.yaml" ".#common.yaml" "../" "./")
+ ("/Volumes/Extension/Development/csq/jenkins-jobs/" (22547 17625 0 0) "test.sh" "jobs/" "jjb_config.ini" "includes/" "apply.sh" "README.md" ".reviewboardrc" ".gitignore" ".git/" "../" "./")
 
- ("/Users/adrien/Downloads/" (22230 50462 0 0) "valuation-stage-ingnieur-52993.pdf" "tests-adrien/" "test-orig/" "test-cs/" "sortsearch.pdf" "roland-system-1-aide-memoire-ld-473686.pdf" "rabbit_rabbitmq1-production_2015-6-25.json" "pagecarto/" "oscon2015-150724001540-lva1-app6891.pdf" "intellij-haskell.zip" "github-recovery-codes.txt" "gauth-export.json" "facture31112130452.pdf" "exports logo CS.zip" "evaluation-jean-valentin.pdf" "download" "cs answer/" "crucible-3.10.3.zip" "amm" "UnderStandingKernel.pdf" "TB-3 Editor V1 OSX.zip" "TB-3 Editor V1 OSX/" "SWTFA-OT-lossless-7d.mp3" "RiverosABS.pdf" "Review of Black Swan.md" "Prise en charge - adherent -IDGEST1-.pdf" "Paul Kalkbrenner - 7 (2015) MP3 320Kbps/" "PSX_20160221_093424.jpg" "NakedLunchPODCAST_183_MATT_MUS.mp3" "Moonrack-Tips-Compression.pdf" "Mémoire - La Musique Techno - Vincent Orinel - 2014-2015.pdf" "Le Chant Des Stryges - T15 - Corbeyran, Eric.cbz" "Le Chant Des Stryges - T13 - Corbeyran, Eric.cbr" "Le Chant Des Stryges/" "Jack De Marseille FULL DJ SET @ FLASH Party - 30.10.2015 (Cri De La Mouette - Toulouse FR).mp3" "Image 11.png" "Idem Nevi - Lotus (Josh Gregg Remix) [OLV001.mp3" "Guide du salarié CONTENTSQUARE 2015.pdf" "FAQ Sécurité site web.pdf" "Exercises/" "Dublin - Interviewing@Google Dublin- SRE.pdf" "Doucemohrt_014_-_C.7even-(320kbps)-2016.mp3" "Doctor Space - Pounding Tekkno Podcast #30.mp3" "DESIGN_A_FUNCTION_OF_THE_H_FAMILY_THAT_S.pdf" "Catacombs-700px.jpg" "CV_Arnaud_BI.pdf" "BeatStep_Pro-Firmware_Update-1_1_1_6_mac.zip" "BeatStepPro_Firmware_Update_1_1_1_6.led.confirm" "BeatStepPro_Firmware_Update_1_1_1_6.led" "Android/" "Adrian Pitscher - under cover.mp3" "Addison Wesley - Knuth - The Art of Computer Programming Vol I II III IV/" "ATTESTATION5973430.PDF" "ATTESTATION5973410.PDF" "ATTESTATION5973385.PDF" "2016-03-01.png" "2016-03-01 (1).png" "2014-06-06_19h46m44.wav" "2011 - Le Chant Des Stryges - Saison 03/" "2004 - Le Chant Des Stryges - Saison 02/" "1997 - Le Chant Des Stryges - Saison 01/" "1656077_10153511003866523_8382054297987895897_n.jpg" ".localized" ".DS_Store" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/dev/eu-west-1/" (22683 7742 0 0) "zookeeper" "uxasqsprocessing" "uxanalytics" "project-params" "phpdb" "mandalore" "mandallia" "mandalike" "korasa" "kamino" "kafka-randy" "kafka-butters" "hub" "global" "esuxa" "emrcollect" "cs-app-feature" "athallian" "../" "./")
 
- ("/Users/adrien/Development/articles/" (22207 43328 0 0) "failures-in-cs/" ".git/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.scala-app/defaults/" (22683 7472 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/articles/failures-in-cs/" (22231 10141 0 0) "Makefile" "failures.tex" "failures.pdf" "failures.log" "failures.dvi" "failures.blg" "failures.bib" "failures.bbl" "failures.aux" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/roles/csq.scala-app/" (22683 7472 0 0) "templates/" "tasks/" "meta/" "handlers/" "files/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/mandalore/" (21984 8979 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Volumes/Extension/Development/csq/ansible-dev/environments/dev/" (22544 57925 0 0) "eu-west-1/" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/elasticsearch/manifests/service/" (22223 15314 0 0) "systemd.pp" "openrc.pp" "openbsd.pp" "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.java8/" (22452 28030 0 0) "tasks/" "meta/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/admin/templates/galactic_core/" (22218 51645 0 0) "synchro-v2.sh.erb" "synchro-v2-continuous.sh.erb" "synchro-v2-continuous-endday.sh.erb" "synchro-v2-continuous-dynamic.sh.erb" "mousetestsync-config.json.erb" "mousetestsync-config-purge.json.erb" "mousetestsync-config-obsoletealiases.json.erb" "mousetestsync-config-continuous.json.erb" "lr1-sync.sh.erb" "launch-pig-script.sh.erb" "hdfs-lr1-check.sh.erb" "daily-cleansing.sh.erb" "compaction.sh.erb" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.java8/tasks/" (22681 58919 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/admin/files/galactic_core/" (22092 18430 0 0) "parquet-pig/" "compaction.pig" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/templates/" (22680 40702 0 0) "systemd-unit.service.j2" "start-project.sh.j2" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/admin/files/" (21984 8979 0 0) "galactic_core/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/" (22680 40702 0 0) "templates/" "tasks/" "meta/" "handlers/" "files/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/admin/manifests/" (22218 51148 0 0) "s3_admin.pp" "redshift_admin.pp" "rabbitmq.pp" "galactic_core.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/defaults/" (22680 43893 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kafka/manifests/" (22215 12760 0 0) "service.pp" "params.pp" "package.pp" "install.pp" "init.pp" "env.pp" "config.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/tasks/" (22680 30941 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kafka/hiera/" (22215 12184 0 0) "kafka5-production.eu-west-1.compute.internal.yaml" "kafka4-production.eu-west-1.compute.internal.yaml" "kafka3-production.eu-west-1.compute.internal.yaml" "kafka2-staging.eu-west-1.compute.internal.yaml" "kafka2-production.eu-west-1.compute.internal.yaml" "kafka1-staging.eu-west-1.compute.internal.yaml" "kafka1-production.eu-west-1.compute.internal.yaml" "kafka-staging.yaml" "kafka-production.yaml" "kafka-dev.yaml" "common.yaml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/defaults/" (22680 39284 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/kafka/" (22215 8270 0 0) "templates/" "README.md" "Modulefile" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/meta/" (22676 41252 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/spark/manifests/" (22112 3546 0 0) "shuffle_lib.pp" "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.nodejs-app/" (22487 48817 0 0) "templates/" "tasks/" "meta/" "handlers/" "defaults/" "README.md" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/spark/" (22047 55226 0 0) "templates/" "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.uxanalytics/tasks/" (22680 27963 0 0) "uxanalytics.yml" "main.yml" "check_parameters.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/alerting/" (21984 8979 0 0) "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.scala-app/tasks/" (22680 17640 0 0) "main.yml" "get_version.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/alerting/manifests/" (22203 20979 0 0) "init.pp" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/environments/local/" (22663 21441 0 0) "project-params" "kapacitor" "kafkamanager" "global" "cs-app-feature" "artifactory" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/python/hiera/" (22184 51020 0 0) "uxasqsprocessing.yaml" "Ubuntu.yaml" "dishosting.yaml" "datamining-staging.yaml" "datamining-production.yaml" "common.yaml" "atat-staging.yaml" "atat-production.yaml" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.elasticsearch5/defaults/" (22600 15215 0 0) "main.yml" "../" "./")
 
- ("/Users/adrien/Development/csq/puppet-modules/python/" (21984 8979 0 0) "manifests/" "hiera/" "files/" "../" "./")
+ ("/Users/adrien/Development/csq/ansible-dev/roles/csq.elasticsearch5/vars/" (22674 64669 0 0) "main.yml" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

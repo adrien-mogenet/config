@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- comment-region
- octave-mode
  replace-string
- sql-mode
- java-mode
  uncomment-region
- yaml-mode
+ comment-region
+ set-fill-column
+ read-only-mode
+ text-mode
+ magit-stgit-mode
 )
 
 ;; ----- smex-data -----
@@ -16,24 +16,28 @@
  (replace-regexp . 1)
  (javascript-mode . 4)
  (java-mode . 6)
- (eshell-mode . 2)
- (sh-mode . 5)
- (replace-string . 74)
- (comment-region . 8)
- (uncomment-region . 2)
+ (eshell-mode . 3)
+ (sh-mode . 6)
+ (replace-string . 92)
+ (comment-region . 44)
+ (uncomment-region . 22)
  (python-mode . 4)
- (text-mode . 1)
+ (text-mode . 4)
  (indent-region . 4)
  (xml-mode . 1)
- (package-install . 5)
- (write-file . 3)
+ (package-install . 9)
+ (write-file . 7)
  (TeX-mode . 1)
  (compile . 3)
  (customize-themes . 2)
  (load-theme . 1)
  (justify-current-line . 1)
  (align-entire . 1)
- (yaml-mode . 1)
+ (yaml-mode . 4)
  (sql-mode . 2)
  (octave-mode . 1)
+ (package-refresh-contents . 2)
+ (set-fill-column . 10)
+ (magit-stgit-mode . 1)
+ (read-only-mode . 3)
 )
